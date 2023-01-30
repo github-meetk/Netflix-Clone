@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(49 48 48);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.hdr-img {
+    height:650px;
+    width:100%;
+    background-color: rgb(49 48 48);
+    background-blend-mode:overlay;
+} 
+
+.flex {
+    display: flex;
+}
+
+.nav-left {
+    padding: 20px 40px;
+}
+
+.nav-right {
+    padding: 45px 40px;
+}
+
+.primary-button {
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 6px 15px;
+    margin: 0px 15px;
+}
+
+.primary-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;    
+}
+
+.nav-left img{
+    height: 80px;
+    width: 170px;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+ 
+h1 {
+    color: white;
+    font-family: 'lato', sans-serif;
+    font-size: 3.5em;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.hdr-txt {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+}
+
+.hdt {
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.hdr-txt h3 {
+    font-family: 'lato', sans-serif;
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+}
+
+.hdr-txt p {
+    font-family: 'lato', sans-serif;
+    font-size: 1.2rem;
+    margin: 0px -50px;
+    padding-bottom: 20px;
+}
+
+.hdr-txt input {
+    height: 50px;
+    width: 150%;
+}
+
+.btn {
+    width: 300px;
+}
+
+/* feature section */
+
+.feature{
+    margin-top: 8px;
+    background-color: black;
+}
+
+.feature-txt {
+    flex-direction: column;
+    gap: 20px;
+    padding: 130px 150px 0px;
+    align-items: flex-start;
+}
+.feature-txt h3 {
+    font-size: 1.3rem;
+}
+
+.reflex {
+    flex-direction: row-reverse;
+}
+
+/* footer */
+
+.main-footer {
+    margin-top: 8px;
+    background-color: black;
+    padding: 80px 230px 80px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ft-grp {
+    gap: 50px;
+}
+
+.ft-head h4{
+    font-weight:lighter;
+    color: rgba(230, 229, 229, 0.336);
+}
+.ft-list{
+    gap: 20px;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+
+.ft-list a {
+    text-decoration: none;
+    color: rgba(230, 229, 229, 0.336);
+    font-weight:lighter;
+}
+
